@@ -6,7 +6,7 @@ Contenido
 
 [Ejercicio 2](#ejercicio-2)
 
-[Ejercicio 3](#ejercicio-1)
+[Ejercicio 3](#ejercicio-3)
 
 
 
