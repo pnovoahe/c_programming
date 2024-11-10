@@ -194,3 +194,48 @@ La longitud de la hipotenusa es: 5.00
 El código fuente de este ejercicio se encuentra [aquí](src/ejercicio5.c).
 
 [Subir](#contenido)
+
+
+### Ejercicio 6
+
+En este ejercicio aplicamos nuestros conocimientos de condicionales.
+
+
+```c
+#include <stdio.h>
+
+char evaluar_numero(int numero) {
+    if (numero > 0) {
+        return 'P';
+    } else if (numero == 0) {
+        return 'C';
+    } else {
+        return 'N';
+    }
+}
+
+int main() {
+    int numero;
+
+    printf("Ingrese un número entero: ");
+    scanf("%d", &numero);
+
+    char resultado = evaluar_numero(numero);
+    printf("Resultado: %c\n", resultado);
+
+    return 0;
+}
+```
+
+Al interactuar con nuestro programa, obtenemos salidas como estas:
+
+```console
+foo@bar:~$ gcc ejercicio6.c -o ejercicio6.o
+foo@bar:~$ ./ejercicio6.o
+Ingrese un número entero: -12
+Resultado: N
+```
+
+El código fuente de este ejercicio se encuentra [aquí](src/ejercicio6.c).
+
+[Subir](#contenido)

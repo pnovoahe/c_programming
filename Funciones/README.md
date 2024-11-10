@@ -14,6 +14,8 @@ A continuación se proponen varios ejercicios para profundizar en el contenido d
 
 [Ejercicio 5](#ejercicio-5)
 
+[Ejercicio 6](#ejercicio-6)
+
 ## Ejercicios propuestos
 
 
@@ -83,7 +85,7 @@ es positivo, C si es cero y la letra N si el número es negativo.
 
 Escribir una función que reciba como datos la longitud y anchura de un rectángulo y devuelva su área y su perímetro.
 
-### Ejercicio8
+### Ejercicio 8
 
 Escribir una función para convertir las coordenadas polares (r; t) de un punto
 P a las coordenadas rectangulares (x; y), donde: x = r cos(t) , y = r sen(t).
