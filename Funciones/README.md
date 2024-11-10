@@ -10,6 +10,10 @@ A continuación se proponen varios ejercicios para profundizar en el contenido d
 
 [Ejercicio 3](#ejercicio-3)
 
+[Ejercicio 4](#ejercicio-4)
+
+[Ejercicio 5](#ejercicio-5)
+
 ## Ejercicios propuestos
 
 

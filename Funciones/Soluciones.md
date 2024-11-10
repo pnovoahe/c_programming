@@ -36,6 +36,8 @@ ejercicio1.c:7:5: note: previous implicit declaration of ‘MiFuncion’ with ty
 
 Lo correcto aquí sería renombrar a `MiFunction` con `mifunction`. 
 
+El código fuente de este ejercicio se encuentra [aquí](src/ejercicio1.c).
+
 [Subir](#contenido)
 
 
@@ -43,6 +45,8 @@ Lo correcto aquí sería renombrar a `MiFunction` con `mifunction`.
 ### Ejercicio 2
 
 A diferencia del anterior, aquí tanto el prototipo de nuestra función `Permuta` coincide con su implementación más abajo. Tenemos como salida `x = 1 y = 2`. 
+
+El código fuente de este ejercicio se encuentra [aquí](src/ejercicio2.c).
 
 [Subir](#contenido)
 
@@ -85,6 +89,8 @@ foo@bar:~$ gcc ejercicio3.c -o ejercicio3
 foo@bar:~$ ./ejercicio3
 x = 2 y = 1
 ```
+
+El código fuente de este ejercicio se encuentra [aquí](src/ejercicio3.c).
 
 [Subir](#contenido)
 
@@ -135,5 +141,56 @@ foo@bar:~$ ./ejercicio4
 Introduzca el radio de la esfera: 2
 El volumen de la esfera es 33.510 unidades cúbicas. 
 ```
+
+El código fuente de este ejercicio se encuentra [aquí](src/ejercicio4.c).
+
+[Subir](#contenido)
+
+
+### Ejercicio 5
+
+Al igual que en el ejercicio previo, aquí es preciso conocer cómo se calcula *la longitud de la hipotenusa de un triángulo rectángulo dados sus dos catetos*. La fórmula de Pitágoras nos dice cómo:
+
+```math
+h(c_1, c_2) = \sqrt{c_1^2 + c_2^2}
+```
+
+El detalle aquí es que necesitamos apoyarnos en alguna función para el cálculo de la raíz cuadrada. Incluyendo la biblioteca `math.h` en nuestro código, podemos hacer uso de `sqrt`.
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+double calcular_hipotenusa(double cateto1, double cateto2) {
+    return sqrt(cateto1 * cateto1 + cateto2 * cateto2);
+}
+
+int main() {
+    double cateto1, cateto2;
+    
+    printf("Ingrese el valor del primer cateto: ");
+    scanf("%lf", &cateto1);
+    
+    printf("Ingrese el valor del segundo cateto: ");
+    scanf("%lf", &cateto2);
+    
+    double hipotenusa = calcular_hipotenusa(cateto1, cateto2);
+    printf("La longitud de la hipotenusa es: %.2f\n", hipotenusa);
+    
+    return 0;
+}
+```
+
+Para poder compilar correctamente, necesitamos indicar al compilador que enlace a la biblioteca math. Lo hacemos con el flag `-lm`. 
+
+```console
+foo@bar:~$ gcc ejercicio5.c -o ejercicio5.o -lm
+foo@bar:~$ ./ejercicio5.o
+Ingrese el valor del primer cateto: 3
+Ingrese el valor del segundo cateto: 4.0
+La longitud de la hipotenusa es: 5.00
+```
+
+El código fuente de este ejercicio se encuentra [aquí](src/ejercicio5.c).
 
 [Subir](#contenido)
