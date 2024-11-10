@@ -10,6 +10,10 @@
  
 [Ejercicio 4](#ejercicio-4)
 
+[Ejercicio 6](#ejercicio-5)
+
+[Ejercicio 5](#ejercicio-6)
+
 
 ### Ejercicio 1 
 
@@ -196,10 +200,10 @@ El código fuente de este ejercicio se encuentra [aquí](src/ejercicio5.c).
 [Subir](#contenido)
 
 
+
 ### Ejercicio 6
 
-En este ejercicio aplicamos nuestros conocimientos de condicionales.
-
+En este ejercicio ponemos en práctica nuestros conocimientos de condicionales.
 
 ```c
 #include <stdio.h>
