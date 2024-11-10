@@ -1,2 +1,5 @@
-# c_programming
-Exercises on C Programming
+# Ejercicios de Programación en C
+
+
+[Funciones](Functions/README.md)
+

@@ -1,5 +1,15 @@
 # Funciones
 
+Contenido
+
+[Ejercicio 1](#ejercicio-1)
+
+[Ejercicio 2](#ejercicio-2)
+
+[Ejercicio 3](#ejercicio-1)
+
+
+
 A continuación se proponen varios ejercicios para profundizar en el contenido de *funciones* en C.
 
 ### Ejercicio 1. 
