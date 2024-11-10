@@ -1,6 +1,8 @@
 # Funciones
 
-Contenido
+A continuación se proponen varios ejercicios para profundizar en el contenido de *funciones* en C.
+
+## Contenido
 
 [Ejercicio 1](#ejercicio-1)
 
@@ -8,9 +10,8 @@ Contenido
 
 [Ejercicio 3](#ejercicio-3)
 
+## Ejercicios propuestos
 
-
-A continuación se proponen varios ejercicios para profundizar en el contenido de *funciones* en C.
 
 ### Ejercicio 1. 
 
@@ -127,3 +128,8 @@ f) La diferencia de dos números complejos.
 g) El producto de dos números complejos.
 
 h) El cociente de dos números complejos.
+
+
+# Soluciones
+
+Las soluciones aparecen [aquí](Soluciones.md).
