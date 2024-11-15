@@ -67,7 +67,6 @@ El código fuente de este ejercicio se encuentra [aquí](src/ejercicio1.c).
 
 ## Ejercicio 2
 
-
 ```c
 #include <stdio.h>
 
