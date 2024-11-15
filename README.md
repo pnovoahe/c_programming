@@ -2,7 +2,7 @@
 
 Este repositorio sirve de complemento a las clases de Programación en C impartidas dentro de la asignatura *Informática* a los grados de ingeniería de la Universidad de La Laguna (España). Actualmente se encuentra en construcción.
 
-[3. Estructuras de control lógicas](./Condicionales/README.md#estructuras-de-control-lógicas-condicionales)
+[1. Estructuras de control lógicas](./Condicionales/README.md#estructuras-de-control-lógicas-condicionales)
 
 [3. Funciones](./Funciones/README.md#funciones)
 
