@@ -10,9 +10,9 @@
  
 [Ejercicio 4](#ejercicio-4)
 
-[Ejercicio 6](#ejercicio-5)
+[Ejercicio 5](#ejercicio-5)
 
-[Ejercicio 5](#ejercicio-6)
+[Ejercicio 6](#ejercicio-6)
 
 
 ### Ejercicio 1 
