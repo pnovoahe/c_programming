@@ -43,11 +43,6 @@ int main() {
 
 ```
 
-
-¡Claro! Aquí tienes la explicación del **Ejercicio 1** de forma consistente con los demás:
-
----
-
 ### Explicación del código
 
 1. **Declaración de variables**:  
