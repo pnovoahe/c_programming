@@ -41,12 +41,36 @@ int main() {
     return 0;
 }
 
+```
+
+
+¡Claro! Aquí tienes la explicación del **Ejercicio 1** de forma consistente con los demás:
+
+---
+
+### Explicación del código
+
+1. **Declaración de variables**:  
+   Se declara una variable de tipo entero llamada `numero`, que almacenará el valor introducido por el usuario.
+
+3. **Entrada de datos**:  
+   Se muestra un mensaje al usuario pidiéndole que introduzca un número mediante `printf`. Luego, se utiliza `scanf` para leer el valor desde el teclado y almacenarlo en la variable `numero`.
+
+4. **Estructura condicional**:  
+   Se utiliza una estructura `if-else` para verificar si el número es positivo, negativo o igual a cero:
+   - Si `numero > 0`, se imprime que el número es positivo.
+   - Si `numero < 0`, se imprime que el número es negativo.
+   - Si no se cumple ninguna de las condiciones anteriores, el número es igual a cero, y se imprime un mensaje indicando esto.
+
+5. **Salida del programa**:  
+   Una vez procesado e impreso el resultado, el programa termina con `return 0`, que indica que se ejecutó correctamente.
+
 El código fuente de este ejercicio se encuentra [aquí](src/ejercicio1.c).
 
 [Subir](#contenido)
 
 
-### Ejercicio 2
+## Ejercicio 2
 
 
 ```c
@@ -122,6 +146,7 @@ int main() {
     return 0;
 }
 ```
+
 ### Explicación
 
 En la entrada de datos se declaran tres variables enteras: `numero1`, `numero2` y `numero3`. Luego, se solicita al usuario que ingrese tres valores, uno por uno, usando `scanf`.
